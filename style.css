@@ -1,0 +1,108 @@
+body{
+    background-image: url(back.jpg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-y:hidden;
+    position: relative;
+  }
+h1{
+    color:white;
+    font-size: 40px;
+    padding-left: 20px;
+}
+h2{
+  color:white;
+  
+}
+.cont{
+  background-color: white;
+  border-radius: 20px;
+  height: 600px;
+  width: 30%;
+  padding: 3px 2px 3px 3%;
+  opacity: 0.8;
+  position: absolute;
+  left: 30%;
+}
+.cont .face{
+    background-color: blue;
+    border-radius: 47px;
+    height: 540px;
+    width: 90%;
+  box-shadow: 3px 3px 10px 3px grey;
+}
+.cont .face h1
+{
+  color:black;
+  font-size: 40px;
+  text-align: center;
+  padding: 35px 0 16px 0;
+  text-transform: capitalize;
+}
+input{
+  width: 82%;
+  padding: 15px 0 15px 53px;
+  margin: 0 10px 20px;
+  border: 1px solid red;
+  outline: none;
+  border-radius: 19px;
+  /* border-bottom: 1px solid #000; */
+}
+.cont .face i{
+  color: gray;
+  font-size: 24px;
+  position: absolute;
+  left: 77px;
+  top: 38%;
+}
+#i2 {top: 298px;}
+.cont .face h2{
+  text-transform: uppercase;
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+.cont .face button
+{
+  display: block;
+  padding: 12px 36px;
+  margin-left: 36%;
+  background-color: #3C3F78;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 27px;
+  font-size: large;
+  margin-bottom: 17px;
+}
+.cont .face a{
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+  padding: 0 0 0 98px;
+}
+.top-right
+{
+  position: absolute;
+  right: 35px;
+  top: 9px;
+  color: blue;
+  font-size: 26px;
+}
+.list
+{
+  height: 100%;
+  float: right;
+  width: 20%;
+  background-color: gray;
+  position: relative;
+  top: -99px;
+  right: -7px;
+  opacity: 0.7;
+  text-align: center;
+}
+.list ul{margin-top: 136px;font-size: 27px;}
+.list ul li{list-style: none;    padding-bottom: 10px;}
+.list ul li a {text-decoration: none;}
